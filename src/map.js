@@ -1,4 +1,4 @@
 const map = (array,func) => {
-    return array.map(item => func(item));   
+    return array.map(func);   
 }
 module.exports = map;

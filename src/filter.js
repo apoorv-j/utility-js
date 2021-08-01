@@ -1,4 +1,4 @@
 const filter = (array,func) => {
-    return array.filter(item => func(item));   
+    return array.filter(func);   
 }
 module.exports = filter;
